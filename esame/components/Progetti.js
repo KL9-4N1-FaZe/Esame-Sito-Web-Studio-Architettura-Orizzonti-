@@ -13,7 +13,7 @@ export default function Progetti(props) {
       </div>
       
       <div className="p-6 flex flex-col flex-grow">
-        <h2 className="text-gray-800 text-xl font-bold leading-tight mb-6 min-h-[60px]">
+        <h2 className="text-[#285A48] text-xl font-bold leading-tight mb-6 min-h-[60px]">
           {props.titolo}
         </h2>
         

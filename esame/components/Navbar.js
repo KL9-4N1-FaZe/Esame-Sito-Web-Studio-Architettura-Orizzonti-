@@ -27,7 +27,7 @@ export default function Navbar(props) {
             </Link>
           </li>
           <li className="hidden 2xl:block">
-            <Link href="/page.js" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
+            <Link href="/" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
               {props.homepage}
             </Link>
           </li>
