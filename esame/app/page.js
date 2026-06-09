@@ -10,7 +10,6 @@ export default function Homepage() {
         progetti="I NOSTRI LAVORI" 
         noi="CHI SIAMO" 
         contatti="CONTATACI" 
-        lavora="LAVORA CON NOI" 
       />
 
        <Bannerone 
@@ -18,7 +17,7 @@ export default function Homepage() {
         descrizione="Studio Orizzonti unisce estetica minimale e sostenibilità ambientale per creare architetture che dialogano con il territorio."
         bottone="I NOSTRI PROGETTI"
       />
-            <Footer 
+      <Footer 
         testoNewsletter="Scopri tutto in Anticipo da oggi"
         bottoneNewsletter="ISCRIVITI"
         copyright="© 2026 Studio Architettura Orizzonti"

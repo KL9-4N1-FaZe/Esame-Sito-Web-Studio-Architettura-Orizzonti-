@@ -6,8 +6,8 @@ export default function Navbar(props) {
       <div className="container mx-auto flex justify-between items-center">
         
         <div className="flex items-center space-x-2 lg:space-x-4 shrink-0">
-          <img src="images/logo.png" alt=" " className="w-20 md:w-24 lg:w-28" />
-          <img src="images/certificato.png" alt=" " className="hidden md:block w-25 lg:w-28" />
+          <img src="images/logo.png" alt=" " className="w-20 md:w-24 lg:w-34" />
+          <img src="images/regione.svg" alt=" " className="hidden md:block w-10 lg:w-15" />
         </div>
 
         <ul className="hidden md:flex items-center space-x-2 lg:space-x-4 xl:space-x-6 px-2 flex-1 justify-center">
@@ -17,18 +17,18 @@ export default function Navbar(props) {
             </Link>
           </li>
           <li className="hidden lg:block">
-            <Link href="/Contatti" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
+            <Link href="/Chisiamo" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
               {props.noi}
             </Link>
           </li>
           <li className="hidden xl:block">
-            <Link href="/Contattaci" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
+            <Link href="/Contatti" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
               {props.contatti}
             </Link>
           </li>
           <li className="hidden 2xl:block">
-            <Link href="/#" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
-              {props.lavora}
+            <Link href="/page.js" className="text-[10px] lg:text-xs font-bold hover:text-blue-600 transition whitespace-nowrap uppercase px-1">
+              {props.homepage}
             </Link>
           </li>
         </ul>

@@ -45,7 +45,7 @@ export default function Footer(props) {
           <h3 className="font-bold mb-2 uppercase text-sm">NEWSLETTER</h3>
           <p className="text-[14px] leading-tight text-white mb-4">{props.testoNewsletter}</p>
           <input type="text" placeholder="Inserisci la tua e-mail" className="w-full p-3 text-white mb-2 outline-none text-xs" />
-          <button className="w-full bg-[#B0E4CC] py-3 font-bold italic uppercase text-sm hover:bg-[#408A71] transition-colors">
+          <button className="w-full bg-white py-3 font-bold italic uppercase text-sm hover:bg-[#408A71] transition-colors">
             {props.bottoneNewsletter}
           </button>
           

@@ -23,7 +23,7 @@ export default function Bannerone(props) {
 
             <div className="flex justify-start w-full">
               <Link 
-                href="/Modelli" 
+                href="/Progetti" 
                 className="bg-white hover:bg-[#408A71] hover:text-white text-black px-6 py-3 md:px-12 md:py-4 rounded-full font-black uppercase text-xs md:text-base transition-all duration-300 italic shadow-lg"
               >
                 {props.bottone} ➝
