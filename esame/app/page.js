@@ -21,7 +21,7 @@ export default function Homepage() {
             <Footer 
         testoNewsletter="Scopri tutto in Anticipo da oggi"
         bottoneNewsletter="ISCRIVITI"
-        copyright="© 2026 GREEN ROUTE EUROPE N.V."
+        copyright="© 2026 Studio Architettura Orizzonti"
       />
 
     </>
