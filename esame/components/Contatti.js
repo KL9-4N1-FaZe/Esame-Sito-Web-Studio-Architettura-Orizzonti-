@@ -17,9 +17,19 @@ export default function Contatti(props) {
       <div className="mb-12">
         <h3 className="text-[#285A48] font-bold mb-auto uppercase text-sm tracking-widest">Seguici</h3>
         <div className="flex gap-20">
-          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer">Instagram</div>
-          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer">Linkedln</div>
-          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer">Behance</div>
+          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer"> 
+        <img src="images/ig.svg" alt=" " className="w-5 md:w-5 lg:w-10" />
+          Instagram
+          </div>
+        
+        
+          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer">
+          <img src="images/linkeldin.png" alt=" " className="w-5 md:w-5 lg:w-10" />
+
+            Linkedln</div>
+          <div className="w-25 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-[#285A48] hover:text-white transition-all cursor-pointer">
+          <img src="images/BE.png" alt=" " className="w-5 md:w-5 lg:w-10" />
+            Behance</div>
         </div>
       </div>
     </contatti>
